@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Form Test</title>
+</head>
+<body>
+<h2>Please enter your information</h2>
+<br />
+<form action='/cgi-bin/script2208.cgi' method='post'>
+<label>Last Name:</label><input type="text" name="lname" size="30" />
+<br />
+<label>First Name:</label><input type="text" name="fname" size="30" />
+<br />
+<label>Age range:</label><br />
+<input type="radio" name="age" value="20-30" />20-30<br />
+<input type="radio" name="age" value="31-40" />31-40<br />
+<input type="radio" name="age" value="41-50" />41-50<br />
+<input type="radio" name="age" value="51+" />51+<br />
+<br />
+<label>Select all that apply:</label><br />
+<input type="checkbox" name="hobbies" value="fishing" />Fishing<br />
+<input type="checkbox" name="hobbies" value="golf" />Golf<br />
+<input type="checkbox" name="hobbies" value="baseball" />Baseball<br />
+<input type="checkbox" name="hobbies" value="football" />Football<br />
+<br />
+<label>Enter your comment:</label><br />
+<textarea name="comment" rows="10" cols="20"></textarea>
+<br />
+<input type="submit" value="Submit your comment" />
+</form>
+</body>
+</html>
+
